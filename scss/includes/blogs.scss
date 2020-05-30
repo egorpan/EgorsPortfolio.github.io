@@ -1,0 +1,50 @@
+.blogs {
+    &_form {
+        width: 1200px;
+        background: $white;
+        margin: 0 auto;
+        display: flex;
+        padding-top: 40px;
+        height: 540px;
+    }
+
+    &_form span {
+        font-size: 50px;
+        font-weight: bold;
+        color: $yellow;
+    }
+
+    &_form h2 {
+        font-weight: bold;
+        font-size: 30px;
+        padding: 40px 0 0 60px;
+    }
+
+    &_text {
+        font-size: 18px;
+        padding: 150px 0 0 40px;
+    }
+
+    &_text p {
+        margin-bottom: 15px;
+        font-weight: bold;
+    }
+
+    &_text p:hover {
+        color: $yellow;
+        transition: 500ms;
+    }
+
+    &_news {
+        display: flex;
+        width: 733px;
+        margin-left: 150px;
+    }
+
+    &_boxes p {
+        margin-top: 15px;
+        font-size: 15px;
+        color: black;
+        font-weight: bold;
+    }
+}

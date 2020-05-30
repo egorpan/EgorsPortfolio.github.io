@@ -1,0 +1,94 @@
+.strategicprocess {
+    &_form {
+        background: $white;
+        width: 1200px;
+        margin: 0 auto;
+        padding-bottom: 70px;
+    }
+
+    &_title {
+        padding-left: 80px;
+    }
+
+    &_title h2 {
+        font-weight: bold;
+        font-size: 30px;
+        padding-top: 3 0px;
+    }
+
+    &_title h2 :first-child {
+        font-size: 50px;
+        color: $yellow;
+        font-weight: bold;
+    }
+
+    &_title h2 :last-child {
+        color: $black;
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    &_title p {
+        font-size: 14px;
+        width: 1054px;
+        margin-top: 20px;
+    }
+
+    &_italic {
+        font-size: 16px;
+        font-style: italic;
+
+    }
+
+    &_regular {
+        height: 110px;
+        color: gray;
+        margin-bottom: 45px;
+    }
+
+    &_content {
+        display: flex;
+        flex-wrap: wrap;
+        width: 962px;
+        margin: 0 auto;
+    }
+
+    &_boxes {
+        display: flex;
+        flex-direction: row;
+    }
+
+    &_boxes img {
+        width: 430px;
+        height: 290px;
+    }
+
+    &_boxes-text {
+        width: 488px;
+    }
+
+    &_boxes-text p {
+        margin-bottom: 9px;
+        margin-left: 10px;
+        width: 420px;
+    }
+
+    &_boxes-text h2 {
+        font-size: 30px;
+        margin-left: 10px;
+        margin-bottom: 70px;
+        margin-top: 30px;
+    }
+
+    &_boxes-text span {
+        font-size: 50px;
+    }
+
+    &_stone {
+        margin-left: -58px;
+    }
+
+    &_fire {
+        margin-top: 37px;
+    }
+}

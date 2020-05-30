@@ -1,0 +1,74 @@
+.team {
+    &_form {
+        background: $white;
+        width: 1200px;
+        height: 585px;
+        margin: 0 auto;
+    }
+
+    &_form h2 {
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    &_form h2 :first-child {
+        font-size: 50px;
+        color: $yellow;
+        font-weight: bold;
+    }
+
+    &_form h2 :last-child {
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    &_content-logos {
+        padding-top: 100px;
+    }
+
+    &_content-text :first-child {
+        width: 595px;
+        font-size: 16px;
+        color: $gray;
+    }
+
+    &_content-text :last-child {
+        width: 621px;
+        font-size: 14px;
+        color: rgb(90, 90, 90);
+    }
+
+    &_content-text {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 150px;
+    }
+
+    &_content-title {
+        display: flex;
+        margin-left: 50px;
+    }
+
+    &_content-title p {
+        margin-bottom: 25px;
+    }
+
+    &_content-title h2 {
+        width: 300px;
+    }
+
+    &_content-img {
+        display: flex;
+        margin-left: 380px;
+    }
+
+    &_content-img-box {
+        margin-left: 20px;
+        text-align: center;
+    }
+
+    &_content-img-box p {
+        font-size: 16px;
+        font-weight: bold;
+    }
+}

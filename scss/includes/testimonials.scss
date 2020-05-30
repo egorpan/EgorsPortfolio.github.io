@@ -1,0 +1,53 @@
+.testimonials {
+    &_form {
+        background: $black;
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+    &_form h2 {
+        font-size: 30px;
+        color: $white;
+        font-weight: bold;
+        padding: 54px 0 0 48px;
+    }
+
+    &_form h2 span {
+        font-size: 50px;
+        color: $yellow;
+    }
+
+    &_content p {
+        color: $white;
+        margin-bottom: 25px;
+        margin-top: -5px;
+    }
+
+    &_content {
+        display: flex;
+        padding: 90px 0 0 90px;
+    }
+
+    &_content-text :first-child {
+        width: 594px;
+    }
+
+    &_content-text :last-child {
+        width: 616px;
+    }
+
+    &_content-text {
+        margin-top: 10px;
+    }
+
+    &_content-box {
+        text-align: center;
+        margin: -50px 0 100px 100px;
+    }
+
+    &_content-box img {
+        border-radius: 100px;
+        border: 3px solid $yellow;
+    }
+
+}

@@ -1,0 +1,121 @@
+.contactus {
+    &_form {
+        width: 1200px;
+        height: 680px;
+        background: $bgColorContact;
+        margin: 0 auto;
+        display: flex;
+        position: relative;
+    }
+
+    &_form h2 {
+        font-size: 30px;
+        font-weight: bold;
+        color: $white;
+    }
+
+    &_form h2 span {
+        font-size: 50px;
+        color: $yellow;
+    }
+
+    &_forma {
+        display: flex;
+        flex-direction: column;
+        margin-top: 180px;
+        height: 233px;
+    }
+
+    &_name {
+        width: 433px;
+        height: 35px;
+        padding: 7px;
+        background: $bgColorContact;
+        margin-bottom: 20px;
+    }
+
+    &_name::placeholder {
+        color: $white;
+    }
+
+    &_mobile {
+        width: 300px;
+        height: 35px;
+        padding: 7px;
+        width: 180px;
+        background: $bgColorContact;
+        margin-right: 50px;
+    }
+
+    &_forma-mobile {
+        width: 434px;
+        display: flex;
+    }
+
+    &_mobile::placeholder {
+        color: $white;
+    }
+
+    &_email {
+        width: 350px;
+        height: 35px;
+        padding: 7px;
+        background: $bgColorContact;
+    }
+
+    &_email::placeholder {
+        color: $white;
+    }
+
+    &_message {
+        width: 433px;
+        height: 67px;
+        background: $bgColorContact;
+        margin-top: 15px;
+    }
+
+    &_message::placeholder {
+        color: $white;
+    }
+
+    &_send {
+        background: $yellow;
+        height: 35px;
+        width: 106px;
+        margin-top: 25px;
+    }
+
+    &_information {
+        font-size: 12px;
+        color: $white;
+        padding: 500px 100px 0 0;
+        margin-left: -420px;
+    }
+
+    &_information p {
+        margin-bottom: 20px;
+    }
+
+    &_information span {
+        font-size: 16px;
+        color: $white;
+        width: 260px;
+        margin-right: 50px;
+    }
+
+    &_input {
+        display: flex;
+    }
+
+    &_social {
+        display: flex;
+        position: absolute;
+        bottom: 0px;
+        right: 550px;
+    }
+
+    &_social p img {
+        width: 50px;
+        height: 50px;
+    }
+}

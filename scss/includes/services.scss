@@ -1,0 +1,48 @@
+.services {
+    &_form {
+        margin: 0 auto;
+        background-image: url(../../images/ServicesPr_bg.png);
+        width: 1200px;
+        height: 478px;
+    }
+
+    &_title {
+        font-size: 29.97px;
+        color: $white;
+        padding: 30px 0 0 48px;
+        font-weight: bold;
+    }
+
+    &_title span {
+        color: $yellow;
+        font-style: 50px;
+    }
+
+    &_content {
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        width: 544px;
+        justify-content: flex-end;
+        margin: 50px 0 0 480px;
+        justify-content: space-between;
+    }
+
+    &_content-boxes {
+        height: 107px;
+        width: 225px;
+        margin-bottom: 80px;
+    }
+
+    &_content-boxes h3 {
+        color: $white;
+        font-size: 18px;
+        
+    }
+
+    &_content-boxes p {
+        color: $white;
+        font-size: 11px;
+        padding-top: 30px;
+    }
+}

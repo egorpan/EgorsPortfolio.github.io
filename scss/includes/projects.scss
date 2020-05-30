@@ -1,0 +1,60 @@
+.projects {
+    &_bg {
+        background: green;
+    }
+
+    &_form {
+        display: flex;
+        flex-wrap: wrap;
+        background: $white;
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+    &_title {
+        display: flex;
+        flex-direction: column;
+        padding-left: 80px;
+        margin-bottom:5px;
+    }
+
+    &_title span {
+        font-size: 50px;
+        color: $yellow;
+    }
+
+    &_title ul {
+        width: 600px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &_title ul a {
+        font-size: 11px;
+        color: $black;
+    }
+
+    &_title ul a:hover {
+        border-bottom: 2px solid $yellow;
+        transition: 500ms;
+    }
+
+    &_title h1 {
+        font-weight: bold;
+    }
+
+
+    &_images {
+        display: flex;
+        flex-wrap: wrap;
+        width: 1200px;
+    }
+
+    &_images img {
+        padding-left: -1px;
+    }
+}
+
+.bd-main {
+    background: $bgColor;
+}

@@ -1,0 +1,30 @@
+$bgColor: #161616;
+$yellow: #ffc600;
+$black: #000000;
+$white: #ffffff;
+$bgColorContact: #2046b3;
+$gray : #717171;
+$textgray : #878787;
+$footer: #222426;
+$fonts: ("Myriadpro-regular", 500),
+("Myriadpro-semibold", 400),
+("Myriadpro-bold", 600);
+
+@each $name,
+$weight in $fonts {
+    @font-face {
+        font-family: 'Myriadpro';
+        src: url("../fonts/myriad/#{$name}.otf");
+        font-weight: $weight;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Myriadpro";
+    font-weight: 500;
+}
